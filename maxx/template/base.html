@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        footer {
+            background-color: black;
+            color: rgb(186, 239, 239);
+            margin-top: 0%;
+
+        }
+
+        header {
+            background-color: yellow;
+            color: rgb(10, 10, 10);
+            margin: 0px;
+            border-radius: 10pz;
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>welcome to django </h1>
+        <h2>Django is a powerfull python frame work by using this frame work we can create an extrordinory web
+            applications</h2>
+    </header>
+    <div>
+        {% include "navbar.html" %}
+    </div>
+
+    {% block content %}
+    <h1>nandhakumar</h1>
+    {% endblock content %}
+    <h1>nandhakumar</h1>
+    <br><br><br><br><br><br><br><br><br>
+
+
+    <footer>
+
+        <h4>contact</h4>
+
+
+        <h4>help</h4>
+
+
+        <h4>about us</h4>
+
+
+        <h4>portfolio</h4>
+
+
+    </footer>
+
+</body>
+
+</html>
